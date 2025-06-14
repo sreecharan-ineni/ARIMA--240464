@@ -1,0 +1,35 @@
+Titanic Project Report
+Preprocessing and Feature Engineering
+To make the data easier to work with, we removed columns that didn’t help much — like Name, Ticket, and PassengerID.
+
+Missing values in the Age column were filled using the median age.
+
+For the Embarked column, missing values were filled using the most common port.
+
+The Cabin column was dropped because too many values were missing.
+
+We changed Sex and Embarked into numbers using Label Encoding, so the model could understand them.
+Also, we normalized the Age and Fare columns to make the values more uniform and easier for the model to learn from.
+
+ Observations from the Model
+Women had a much higher chance of survival than men.
+
+Younger people were slightly more likely to survive.
+
+People who paid a higher fare were more likely to live.
+
+Passengers who got on the ship from Cherbourg (C) had slightly better survival rates.
+
+A small family group helped survival, but having too many family members lowered the chance of living.
+
+ Limitations
+We lost some information by removing the Cabin column, which could’ve been useful.
+
+The Logistic Regression model is simple. It doesn't understand how different features might work together (like how age and number of family members might affect survival).
+
+Ideas to Improve
+Use a better model that can understand deeper patterns (like Random Forest or XGBoost).
+
+Try getting more useful information from the Name column, like titles (Mr., Miss, etc.) which might tell us something about the person’s background or status.
+
+Look for ways to include social class or economic status by engineering new features.
