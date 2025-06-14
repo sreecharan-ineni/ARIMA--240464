@@ -1,0 +1,19 @@
+a)
+A ∩ B = NULL
+A ∩ C = NULL
+B ∩ C = NULL
+So A, B, C are pairwise mutually exclusive.
+P(A ∩ B) = NULL
+P(A ∩ C) = NULL
+P(B ∩ C) = NULL
+
+b)
+A ∪ B ∪ C = Sample Space
+⇒ A, B, C are mutually exhaustive
+P(A) + P(B) + P(C) = 1
+
+c)
+A Interection D ⇒ P(A | D) = P(A)
+Also, P(A ∩ D) = P(A) × P(D)
+⇒ Conditional probability remains unchanged if events are independent.
+P(D | A) = P(D)
