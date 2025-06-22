@@ -1,0 +1,27 @@
+I HAVE WRITTEN THE CODE RELATED TO 3B AND 3C IN AN OTHER FILE.THE ANSWER EXCLUDING THE CODE HAS BEEN WRITTEN HERE.
+(a) 
+The lag operator, usually denoted as L, is a mathematical tool used in time series to shift the data back by a certain number of periods. In simple terms, it moves each observation one (or more) steps backward.
+
+Example using Sales Data
+Given sales data:
+[20, 24, 22, 26, 25, 28, 30, 27, 29, 31]
+Lag 1: [NaN, 20, 24, 22, 26, 25, 28, 30, 27, 29]
+Lag 2: [NaN, NaN, 20, 24, 22, 26, 25, 28, 30, 27]
+(b)
+Autocorrelation tells us how related the time series is with its past values. If the value at time t is similar to its value at time t-1 (or t-2, etc.), autocorrelation will be high
+Autocorrelation (Lag 1): 0.90
+Autocorrelation (Lag 2): 0.79
+Lag 1 autocorrelation = 0.90:
+Strong positive correlation between current sales and the previous month’s sales. This means past values heavily influence the present.
+Lag 2 autocorrelation = 0.79:
+Also a strong positive correlation, though slightly weaker. Suggests that even values from 2 months ago still have influence.
+(c)
+Statistical models (like ARIMA) work best when the data is stationary, i.e., its mean and variance remain constant over time.
+Differencing – Subtract each value from its previous one:
+New series: Sales(t) - Sales(t-1)
+Removes trend and stabilizes the mean.
+Log Transformation (if variance increases with time):
+Use log(Sales) to compress large values.
+Detrending:
+Fit a linear trend line and subtract it.
+
