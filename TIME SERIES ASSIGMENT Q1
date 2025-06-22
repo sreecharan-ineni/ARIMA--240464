@@ -1,0 +1,39 @@
+{{Question 1:}}
+ 
+Understanding Time Series Components
+Part A: Two Real-World Examples of Time Series and Their Applications
+Stock Market Prices
+
+Example: Daily closing price of Apple Inc. (AAPL).
+
+Application: Used by investors and analysts to forecast stock movements, evaluate volatility, and make buying or selling decisions.
+
+Electricity Usage
+
+Example: Hourly electricity consumption data in residential areas.
+
+Application: Helps utility companies predict demand, manage loads efficiently, and plan infrastructure improvements.
+ Part B: Real-World Examples for Each of the Four Components of a Time Series
+Trend
+
+Definition: A long-term increase or decrease in the data.
+
+Example: Global temperatures gradually rising over decades due to climate change.
+
+Seasonality
+
+Definition: Repeating patterns or cycles that occur at regular intervals (e.g., monthly, quarterly).
+
+Example: Increased ice cream sales during the summer months every year.
+
+Cyclic Component
+
+Definition: Long-term wave-like patterns that are not of fixed length (usually driven by economic or business cycles).
+
+Example: Phases of economic expansion and recession observed in a country’s GDP.
+
+Irregular/Residual Component
+
+Definition: Random, unpredictable variations or noise in the data.
+
+Example: A sudden drop in airline bookings due to a natural disaster or health emergency like COVID-19.
