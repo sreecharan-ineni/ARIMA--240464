@@ -1,0 +1,17 @@
+I HAVE GIVEN THE CODE AND PLOT IN ANOTHER FILE.HERE I AM ANSWERSING FOR Q2 1ST PART AND 3 RD PART.
+{{1}}
+
+Identify Any Visible Trend or Seasonality
+The sales data shows a general upward trend—it starts at 20 and ends at 31.
+No clear seasonality is visible since we only have 10 data points (less than a year’s cycle).
+
+{{3}}
+
+Plot Explanation
+The blue line shows the original monthly sales.
+The orange line (3-point moving average) smooths out fluctuations and highlights the overall increasing trend more clearly.
+
+Observation: How Moving Average Helps
+The 3-point moving average removes short-term ups and downs, giving a cleaner view of the long-term direction.
+In this case, it confirms that sales are steadily increasing over time.
+Even though we can't see any seasonal cycles, the smoothing helps us focus on the trend without being distracted by small jumps.
